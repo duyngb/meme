@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">KnowYourMeme</string>
+    <string name="description_1">I know you.\nWrite down your height now.</string>
+    <string name="cm">cm</string>
+    <string name="ok">Great!</string>
+    <string name="resultsWoW">Wow, it is %s</string>
+    <string name="result_init_text">TYPE IT\nGET IT</string>
+    <string name="random_range_label">random range:</string>
+    <string name="sleep_time_label">sleep time:</string>
+    <string name="range_init">30</string>
+    <string name="sleep_time_init">100</string>
+    <string name="sleep_time_ending">ms </string>
+    <string name="my_height_prefix">It\'s</string>
+</resources>

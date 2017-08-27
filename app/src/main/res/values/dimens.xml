@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="progressBarMargin">30dp</dimen>
+    <dimen name="progressBarHeight">64dp</dimen>
+</resources>
