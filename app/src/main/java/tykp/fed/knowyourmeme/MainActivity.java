@@ -10,6 +10,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import java.util.Locale;
+
 public class MainActivity extends AppCompatActivity {
     private EditText heightInput;
 
@@ -33,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         // create dialog context
         Context context = new android.view.ContextThemeWrapper(this, R.style.MyDialog);
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
-        builder.setMessage(height + " cm")
+        builder.setMessage(getString(R.string.resultsWoW, height))
                 .setTitle("WoW")
                 .setCancelable(true);
 
